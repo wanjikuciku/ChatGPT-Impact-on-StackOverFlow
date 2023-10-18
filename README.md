@@ -85,11 +85,11 @@ The aggregated dataset, spanning from November 2020 to October 2023 with monthly
 #### Result
 - We conducted a statistical analysis using a Difference-in-Differences (DiD) model to estimate the causal effect of the ChatGPT release on Python questions compared to R questions. 
 - The results of this analysis revealed that ChatGPT has had a statistically significant effect on the number of questions asked. 
-- The model showed that the number of Python questions decreased compared to R questions after the ChatGPT release, supporting the alternative hypothesis.
+- The model showed that the number of Python and to R questions decreased since ChatGPT release, supporting the alternative hypothesis.
 
 #### H2 Hypothesis
 - Null Hypothesis (H0): ChatGPT does not have an effect on the quality of the questions asked.
-- Alternative Hypothesis (HA): ChatGPT has an effect on the quality of the questions asked, and it increases the quality.
+- Alternative Hypothesis (HA): ChatGPT has an effect on the quality of the questions asked.
 
 - To test this hypothesis, we performed the Mann-Whitney U test. The results of the Mann-Whitney U test indicated a statistically significant difference in the distribution of scores, with ChatGPT contributing to an increase in the quality of questions asked. Thus, we rejected the null hypothesis in favor of the alternative hypothesis.
 
